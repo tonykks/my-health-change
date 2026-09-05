@@ -1,0 +1,224 @@
+:root {
+  --bg: #f3efe6;
+  --ink: #1d2b33;
+  --muted: #4d5d66;
+  --card: #fffdf8;
+  --line: #d7cfc2;
+  --accent: #1c6b66;
+  --accent-soft: #d7efec;
+  --focus: #0b4f4b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--bg);
+  font-family: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.55;
+}
+
+.page {
+  width: min(44rem, calc(100% - 1.5rem));
+  margin: 0 auto;
+  padding: 1.25rem 0 2rem;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.25;
+  margin: 0 0 0.6rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-size: 1.05rem;
+  color: var(--muted);
+}
+
+.eyebrow {
+  margin: 0 0 0.35rem;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.lead,
+.delta,
+footer p {
+  color: var(--muted);
+}
+
+.period-block,
+.summary-block,
+section {
+  margin-top: 1.4rem;
+}
+
+.period,
+.metric-select {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.period button,
+.metric-select button {
+  min-width: 5.8rem;
+  min-height: 3rem;
+  padding: 0.55rem 0.9rem;
+  border: 2px solid var(--line);
+  border-radius: 0.9rem;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.period button:focus-visible,
+.metric-select button:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.period button[aria-pressed="true"],
+.metric-select button[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.summary-block {
+  background: var(--accent-soft);
+  border-radius: 1rem;
+  padding: 1rem 1.1rem;
+}
+
+.summary-block p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: 0.95rem 1rem;
+}
+
+.value {
+  margin: 0.15rem 0 0.35rem;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  overflow-wrap: anywhere;
+}
+
+.delta {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.chart-wrap {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: 0.75rem 0.5rem 0.4rem;
+}
+
+#trend-chart {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.chart-legend {
+  margin: 0.35rem 0.4rem 0.2rem;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.chart-label {
+  font-size: 0.8rem;
+  fill: var(--muted);
+}
+
+ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+li + li {
+  margin-top: 0.45rem;
+}
+
+footer {
+  width: min(44rem, calc(100% - 1.5rem));
+  margin: 0 auto 1.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--line);
+}
+
+.error {
+  margin-top: 1rem;
+  padding: 0.9rem;
+  border-radius: 0.8rem;
+  background: #f8e6d8;
+  color: #6a2f12;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .value {
+    font-size: 2.15rem;
+  }
+
+  .period button,
+  .metric-select button {
+    flex: 1 1 calc(50% - 0.6rem);
+    min-width: 0;
+  }
+}

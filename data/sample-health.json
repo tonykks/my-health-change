@@ -1,0 +1,1452 @@
+{
+  "meta": {
+    "source": "synthetic",
+    "label": "Demo용 Sample Data",
+    "note": "실제 개인 건강정보가 아닙니다.",
+    "startDate": "2026-03-10",
+    "endDate": "2026-09-05",
+    "days": 180
+  },
+  "records": [
+    {
+      "date": "2026-03-10",
+      "weightKg": 71.2,
+      "sbp": 129,
+      "dbp": 79,
+      "steps": 3911,
+      "exerciseMin": 17
+    },
+    {
+      "date": "2026-03-11",
+      "weightKg": 71.1,
+      "sbp": 129,
+      "dbp": 81,
+      "steps": 3913,
+      "exerciseMin": 18
+    },
+    {
+      "date": "2026-03-12",
+      "weightKg": 71.1,
+      "sbp": 130,
+      "dbp": 80,
+      "steps": 3994,
+      "exerciseMin": 19
+    },
+    {
+      "date": "2026-03-13",
+      "weightKg": 71,
+      "sbp": 130,
+      "dbp": 80,
+      "steps": 3809,
+      "exerciseMin": 17
+    },
+    {
+      "date": "2026-03-14",
+      "weightKg": 71.2,
+      "sbp": 129,
+      "dbp": 81,
+      "steps": 4033,
+      "exerciseMin": 16
+    },
+    {
+      "date": "2026-03-15",
+      "weightKg": 71.1,
+      "sbp": 130,
+      "dbp": 81,
+      "steps": 4173,
+      "exerciseMin": 16
+    },
+    {
+      "date": "2026-03-16",
+      "weightKg": 71,
+      "sbp": 129,
+      "dbp": 81,
+      "steps": 3702,
+      "exerciseMin": 17
+    },
+    {
+      "date": "2026-03-17",
+      "weightKg": 71.2,
+      "sbp": 129,
+      "dbp": 80,
+      "steps": 4291,
+      "exerciseMin": 17
+    },
+    {
+      "date": "2026-03-18",
+      "weightKg": 70.9,
+      "sbp": 131,
+      "dbp": 80,
+      "steps": 3994,
+      "exerciseMin": 18
+    },
+    {
+      "date": "2026-03-19",
+      "weightKg": 71,
+      "sbp": 131,
+      "dbp": 81,
+      "steps": 3755,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-03-20",
+      "weightKg": 70.9,
+      "sbp": 130,
+      "dbp": 82,
+      "steps": 4003,
+      "exerciseMin": 20
+    },
+    {
+      "date": "2026-03-21",
+      "weightKg": 71.1,
+      "sbp": 130,
+      "dbp": 80,
+      "steps": 3686,
+      "exerciseMin": 17
+    },
+    {
+      "date": "2026-03-22",
+      "weightKg": 71.1,
+      "sbp": 130,
+      "dbp": 80,
+      "steps": 4151,
+      "exerciseMin": 16
+    },
+    {
+      "date": "2026-03-23",
+      "weightKg": 70.9,
+      "sbp": 131,
+      "dbp": 80,
+      "steps": 4326,
+      "exerciseMin": 16
+    },
+    {
+      "date": "2026-03-24",
+      "weightKg": 70.8,
+      "sbp": 130,
+      "dbp": 81,
+      "steps": 3907,
+      "exerciseMin": 20
+    },
+    {
+      "date": "2026-03-25",
+      "weightKg": 70.9,
+      "sbp": 132,
+      "dbp": 81,
+      "steps": 4254,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-03-26",
+      "weightKg": 70.9,
+      "sbp": 131,
+      "dbp": 82,
+      "steps": 4117,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-03-27",
+      "weightKg": 70.9,
+      "sbp": 130,
+      "dbp": 82,
+      "steps": 4250,
+      "exerciseMin": 20
+    },
+    {
+      "date": "2026-03-28",
+      "weightKg": 70.9,
+      "sbp": 131,
+      "dbp": 82,
+      "steps": 4159,
+      "exerciseMin": 20
+    },
+    {
+      "date": "2026-03-29",
+      "weightKg": 71,
+      "sbp": 131,
+      "dbp": 81,
+      "steps": 4029,
+      "exerciseMin": 16
+    },
+    {
+      "date": "2026-03-30",
+      "weightKg": 70.9,
+      "sbp": 130,
+      "dbp": 81,
+      "steps": 3955,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-03-31",
+      "weightKg": 70.7,
+      "sbp": 132,
+      "dbp": 80,
+      "steps": 4433,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-04-01",
+      "weightKg": 70.9,
+      "sbp": 132,
+      "dbp": 81,
+      "steps": 3765,
+      "exerciseMin": 19
+    },
+    {
+      "date": "2026-04-02",
+      "weightKg": 70.7,
+      "sbp": 130,
+      "dbp": 82,
+      "steps": 4050,
+      "exerciseMin": 18
+    },
+    {
+      "date": "2026-04-03",
+      "weightKg": 70.8,
+      "sbp": 131,
+      "dbp": 81,
+      "steps": 3861,
+      "exerciseMin": 16
+    },
+    {
+      "date": "2026-04-04",
+      "weightKg": 70.7,
+      "sbp": 131,
+      "dbp": 82,
+      "steps": 4440,
+      "exerciseMin": 17
+    },
+    {
+      "date": "2026-04-05",
+      "weightKg": 70.9,
+      "sbp": 131,
+      "dbp": 82,
+      "steps": 4438,
+      "exerciseMin": 22
+    },
+    {
+      "date": "2026-04-06",
+      "weightKg": 70.8,
+      "sbp": 131,
+      "dbp": 82,
+      "steps": 4338,
+      "exerciseMin": 18
+    },
+    {
+      "date": "2026-04-07",
+      "weightKg": 70.9,
+      "sbp": 131,
+      "dbp": 81,
+      "steps": 4140,
+      "exerciseMin": 17
+    },
+    {
+      "date": "2026-04-08",
+      "weightKg": 70.9,
+      "sbp": 130,
+      "dbp": 80,
+      "steps": 4168,
+      "exerciseMin": 19
+    },
+    {
+      "date": "2026-04-09",
+      "weightKg": 70.7,
+      "sbp": 130,
+      "dbp": 80,
+      "steps": 4070,
+      "exerciseMin": 18
+    },
+    {
+      "date": "2026-04-10",
+      "weightKg": 70.8,
+      "sbp": 131,
+      "dbp": 82,
+      "steps": 4129,
+      "exerciseMin": 20
+    },
+    {
+      "date": "2026-04-11",
+      "weightKg": 70.6,
+      "sbp": 131,
+      "dbp": 82,
+      "steps": 4214,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-04-12",
+      "weightKg": 70.6,
+      "sbp": 131,
+      "dbp": 81,
+      "steps": 3889,
+      "exerciseMin": 22
+    },
+    {
+      "date": "2026-04-13",
+      "weightKg": 70.7,
+      "sbp": 130,
+      "dbp": 81,
+      "steps": 4460,
+      "exerciseMin": 22
+    },
+    {
+      "date": "2026-04-14",
+      "weightKg": 70.6,
+      "sbp": 130,
+      "dbp": 80,
+      "steps": 4203,
+      "exerciseMin": 22
+    },
+    {
+      "date": "2026-04-15",
+      "weightKg": 70.7,
+      "sbp": 130,
+      "dbp": 82,
+      "steps": 4480,
+      "exerciseMin": 20
+    },
+    {
+      "date": "2026-04-16",
+      "weightKg": 70.8,
+      "sbp": 129,
+      "dbp": 80,
+      "steps": 4143,
+      "exerciseMin": 18
+    },
+    {
+      "date": "2026-04-17",
+      "weightKg": 70.5,
+      "sbp": 130,
+      "dbp": 81,
+      "steps": 3922,
+      "exerciseMin": 22
+    },
+    {
+      "date": "2026-04-18",
+      "weightKg": 70.7,
+      "sbp": 129,
+      "dbp": 81,
+      "steps": 4250,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-04-19",
+      "weightKg": 70.7,
+      "sbp": 128,
+      "dbp": 81,
+      "steps": 4408,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-04-20",
+      "weightKg": 70.4,
+      "sbp": 128,
+      "dbp": 80,
+      "steps": 4077,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-04-21",
+      "weightKg": 70.7,
+      "sbp": 128,
+      "dbp": 81,
+      "steps": 4022,
+      "exerciseMin": 18
+    },
+    {
+      "date": "2026-04-22",
+      "weightKg": 70.7,
+      "sbp": 130,
+      "dbp": 80,
+      "steps": 4104,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-04-23",
+      "weightKg": 70.7,
+      "sbp": 128,
+      "dbp": 80,
+      "steps": 4599,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-04-24",
+      "weightKg": 70.5,
+      "sbp": 129,
+      "dbp": 80,
+      "steps": 4009,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-04-25",
+      "weightKg": 70.5,
+      "sbp": 128,
+      "dbp": 80,
+      "steps": 4099,
+      "exerciseMin": 22
+    },
+    {
+      "date": "2026-04-26",
+      "weightKg": 70.5,
+      "sbp": 129,
+      "dbp": 80,
+      "steps": 4337,
+      "exerciseMin": 20
+    },
+    {
+      "date": "2026-04-27",
+      "weightKg": 70.6,
+      "sbp": 127,
+      "dbp": 79,
+      "steps": 4163,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-04-28",
+      "weightKg": 70.7,
+      "sbp": 128,
+      "dbp": 79,
+      "steps": 4700,
+      "exerciseMin": 19
+    },
+    {
+      "date": "2026-04-29",
+      "weightKg": 70.4,
+      "sbp": 127,
+      "dbp": 80,
+      "steps": 4037,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-04-30",
+      "weightKg": 70.4,
+      "sbp": 129,
+      "dbp": 80,
+      "steps": 4132,
+      "exerciseMin": 20
+    },
+    {
+      "date": "2026-05-01",
+      "weightKg": 70.4,
+      "sbp": 126,
+      "dbp": 80,
+      "steps": 4600,
+      "exerciseMin": 18
+    },
+    {
+      "date": "2026-05-02",
+      "weightKg": 70.4,
+      "sbp": 128,
+      "dbp": 79,
+      "steps": 4203,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-05-03",
+      "weightKg": 70.6,
+      "sbp": 127,
+      "dbp": 79,
+      "steps": 4663,
+      "exerciseMin": 18
+    },
+    {
+      "date": "2026-05-04",
+      "weightKg": 70.6,
+      "sbp": 127,
+      "dbp": 80,
+      "steps": 4544,
+      "exerciseMin": 22
+    },
+    {
+      "date": "2026-05-05",
+      "weightKg": 70.3,
+      "sbp": 127,
+      "dbp": 80,
+      "steps": 4280,
+      "exerciseMin": 20
+    },
+    {
+      "date": "2026-05-06",
+      "weightKg": 70.3,
+      "sbp": 127,
+      "dbp": 79,
+      "steps": 4240,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-05-07",
+      "weightKg": 70.4,
+      "sbp": 128,
+      "dbp": 80,
+      "steps": 4218,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-05-08",
+      "weightKg": 70.3,
+      "sbp": 126,
+      "dbp": 78,
+      "steps": 4406,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-05-09",
+      "weightKg": 70.2,
+      "sbp": 126,
+      "dbp": 78,
+      "steps": 4748,
+      "exerciseMin": 18
+    },
+    {
+      "date": "2026-05-10",
+      "weightKg": 70.5,
+      "sbp": 128,
+      "dbp": 78,
+      "steps": 4407,
+      "exerciseMin": 20
+    },
+    {
+      "date": "2026-05-11",
+      "weightKg": 70.5,
+      "sbp": 126,
+      "dbp": 78,
+      "steps": 4152,
+      "exerciseMin": 22
+    },
+    {
+      "date": "2026-05-12",
+      "weightKg": 70.5,
+      "sbp": 128,
+      "dbp": 79,
+      "steps": 4206,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-05-13",
+      "weightKg": 70.2,
+      "sbp": 126,
+      "dbp": 78,
+      "steps": 4550,
+      "exerciseMin": 22
+    },
+    {
+      "date": "2026-05-14",
+      "weightKg": 70.4,
+      "sbp": 127,
+      "dbp": 79,
+      "steps": 4373,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-05-15",
+      "weightKg": 70.2,
+      "sbp": 127,
+      "dbp": 78,
+      "steps": 4711,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-05-16",
+      "weightKg": 70.2,
+      "sbp": 127,
+      "dbp": 79,
+      "steps": 4367,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-05-17",
+      "weightKg": 70.2,
+      "sbp": 126,
+      "dbp": 79,
+      "steps": 4273,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-05-18",
+      "weightKg": 70.3,
+      "sbp": 127,
+      "dbp": 79,
+      "steps": 4540,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-05-19",
+      "weightKg": 70.2,
+      "sbp": 127,
+      "dbp": 78,
+      "steps": 4757,
+      "exerciseMin": 19
+    },
+    {
+      "date": "2026-05-20",
+      "weightKg": 70.2,
+      "sbp": 127,
+      "dbp": 79,
+      "steps": 4840,
+      "exerciseMin": 20
+    },
+    {
+      "date": "2026-05-21",
+      "weightKg": 70.4,
+      "sbp": 127,
+      "dbp": 78,
+      "steps": 4442,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-05-22",
+      "weightKg": 70.1,
+      "sbp": 127,
+      "dbp": 78,
+      "steps": 4764,
+      "exerciseMin": 20
+    },
+    {
+      "date": "2026-05-23",
+      "weightKg": 70.3,
+      "sbp": 128,
+      "dbp": 79,
+      "steps": 4791,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-05-24",
+      "weightKg": 70.2,
+      "sbp": 127,
+      "dbp": 78,
+      "steps": 4458,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-05-25",
+      "weightKg": 70.2,
+      "sbp": 128,
+      "dbp": 79,
+      "steps": 4584,
+      "exerciseMin": 22
+    },
+    {
+      "date": "2026-05-26",
+      "weightKg": 70.3,
+      "sbp": 129,
+      "dbp": 79,
+      "steps": 4555,
+      "exerciseMin": 20
+    },
+    {
+      "date": "2026-05-27",
+      "weightKg": 70.2,
+      "sbp": 128,
+      "dbp": 78,
+      "steps": 4890,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-05-28",
+      "weightKg": 70.2,
+      "sbp": 128,
+      "dbp": 79,
+      "steps": 4523,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-05-29",
+      "weightKg": 70.2,
+      "sbp": 128,
+      "dbp": 79,
+      "steps": 4562,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-05-30",
+      "weightKg": 70.1,
+      "sbp": 128,
+      "dbp": 78,
+      "steps": 4909,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-05-31",
+      "weightKg": 70,
+      "sbp": 130,
+      "dbp": 78,
+      "steps": 4936,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-06-01",
+      "weightKg": 70,
+      "sbp": 130,
+      "dbp": 79,
+      "steps": 4590,
+      "exerciseMin": 20
+    },
+    {
+      "date": "2026-06-02",
+      "weightKg": 70.1,
+      "sbp": 128,
+      "dbp": 79,
+      "steps": 4819,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-06-03",
+      "weightKg": 70.1,
+      "sbp": 131,
+      "dbp": 79,
+      "steps": 4881,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-06-04",
+      "weightKg": 69.9,
+      "sbp": 131,
+      "dbp": 79,
+      "steps": 4537,
+      "exerciseMin": 22
+    },
+    {
+      "date": "2026-06-05",
+      "weightKg": 69.9,
+      "sbp": 131,
+      "dbp": 79,
+      "steps": 5008,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-06-06",
+      "weightKg": 70.2,
+      "sbp": 130,
+      "dbp": 80,
+      "steps": 4681,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-06-07",
+      "weightKg": 70,
+      "sbp": 131,
+      "dbp": 79,
+      "steps": 4966,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-06-08",
+      "weightKg": 70,
+      "sbp": 130,
+      "dbp": 80,
+      "steps": 5103,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-06-09",
+      "weightKg": 69.9,
+      "sbp": 131,
+      "dbp": 80,
+      "steps": 4475,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-06-10",
+      "weightKg": 70.2,
+      "sbp": 130,
+      "dbp": 79,
+      "steps": 4447,
+      "exerciseMin": 20
+    },
+    {
+      "date": "2026-06-11",
+      "weightKg": 69.9,
+      "sbp": 130,
+      "dbp": 80,
+      "steps": 4477,
+      "exerciseMin": 22
+    },
+    {
+      "date": "2026-06-12",
+      "weightKg": 69.8,
+      "sbp": 131,
+      "dbp": 79,
+      "steps": 4783,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-06-13",
+      "weightKg": 70.1,
+      "sbp": 130,
+      "dbp": 81,
+      "steps": 4954,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-06-14",
+      "weightKg": 69.9,
+      "sbp": 132,
+      "dbp": 80,
+      "steps": 4670,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-06-15",
+      "weightKg": 70,
+      "sbp": 130,
+      "dbp": 80,
+      "steps": 4603,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-06-16",
+      "weightKg": 70,
+      "sbp": 130,
+      "dbp": 81,
+      "steps": 5094,
+      "exerciseMin": 22
+    },
+    {
+      "date": "2026-06-17",
+      "weightKg": 69.9,
+      "sbp": 132,
+      "dbp": 81,
+      "steps": 4935,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-06-18",
+      "weightKg": 70,
+      "sbp": 132,
+      "dbp": 80,
+      "steps": 4573,
+      "exerciseMin": 26
+    },
+    {
+      "date": "2026-06-19",
+      "weightKg": 69.9,
+      "sbp": 130,
+      "dbp": 81,
+      "steps": 4514,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-06-20",
+      "weightKg": 70,
+      "sbp": 132,
+      "dbp": 81,
+      "steps": 4523,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-06-21",
+      "weightKg": 70,
+      "sbp": 131,
+      "dbp": 81,
+      "steps": 4691,
+      "exerciseMin": 22
+    },
+    {
+      "date": "2026-06-22",
+      "weightKg": 69.9,
+      "sbp": 132,
+      "dbp": 81,
+      "steps": 4648,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-06-23",
+      "weightKg": 69.7,
+      "sbp": 131,
+      "dbp": 81,
+      "steps": 4741,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-06-24",
+      "weightKg": 69.8,
+      "sbp": 130,
+      "dbp": 81,
+      "steps": 4596,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-06-25",
+      "weightKg": 69.9,
+      "sbp": 132,
+      "dbp": 81,
+      "steps": 4620,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-06-26",
+      "weightKg": 69.9,
+      "sbp": 131,
+      "dbp": 81,
+      "steps": 5136,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-06-27",
+      "weightKg": 69.9,
+      "sbp": 131,
+      "dbp": 80,
+      "steps": 4970,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-06-28",
+      "weightKg": 69.6,
+      "sbp": 130,
+      "dbp": 82,
+      "steps": 5138,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-06-29",
+      "weightKg": 70,
+      "sbp": 130,
+      "dbp": 81,
+      "steps": 5274,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-06-30",
+      "weightKg": 69.9,
+      "sbp": 129,
+      "dbp": 82,
+      "steps": 4805,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-07-01",
+      "weightKg": 69.8,
+      "sbp": 130,
+      "dbp": 82,
+      "steps": 5046,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-07-02",
+      "weightKg": 69.7,
+      "sbp": 130,
+      "dbp": 82,
+      "steps": 4870,
+      "exerciseMin": 26
+    },
+    {
+      "date": "2026-07-03",
+      "weightKg": 69.7,
+      "sbp": 130,
+      "dbp": 81,
+      "steps": 5269,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-07-04",
+      "weightKg": 69.7,
+      "sbp": 130,
+      "dbp": 81,
+      "steps": 5047,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-07-05",
+      "weightKg": 69.8,
+      "sbp": 130,
+      "dbp": 82,
+      "steps": 4777,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-07-06",
+      "weightKg": 69.8,
+      "sbp": 129,
+      "dbp": 81,
+      "steps": 4763,
+      "exerciseMin": 26
+    },
+    {
+      "date": "2026-07-07",
+      "weightKg": 69.7,
+      "sbp": 129,
+      "dbp": 82,
+      "steps": 4845,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-07-08",
+      "weightKg": 69.8,
+      "sbp": 129,
+      "dbp": 81,
+      "steps": 5072,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-07-09",
+      "weightKg": 69.7,
+      "sbp": 129,
+      "dbp": 82,
+      "steps": 5094,
+      "exerciseMin": 22
+    },
+    {
+      "date": "2026-07-10",
+      "weightKg": 69.6,
+      "sbp": 128,
+      "dbp": 81,
+      "steps": 4831,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-07-11",
+      "weightKg": 69.6,
+      "sbp": 130,
+      "dbp": 81,
+      "steps": 4873,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-07-12",
+      "weightKg": 69.6,
+      "sbp": 129,
+      "dbp": 81,
+      "steps": 4835,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-07-13",
+      "weightKg": 69.8,
+      "sbp": 128,
+      "dbp": 81,
+      "steps": 4881,
+      "exerciseMin": 21
+    },
+    {
+      "date": "2026-07-14",
+      "weightKg": 69.6,
+      "sbp": 128,
+      "dbp": 82,
+      "steps": 5135,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-07-15",
+      "weightKg": 69.6,
+      "sbp": 129,
+      "dbp": 81,
+      "steps": 5399,
+      "exerciseMin": 27
+    },
+    {
+      "date": "2026-07-16",
+      "weightKg": 69.5,
+      "sbp": 129,
+      "dbp": 82,
+      "steps": 5005,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-07-17",
+      "weightKg": 69.7,
+      "sbp": 129,
+      "dbp": 82,
+      "steps": 4808,
+      "exerciseMin": 22
+    },
+    {
+      "date": "2026-07-18",
+      "weightKg": 69.5,
+      "sbp": 127,
+      "dbp": 81,
+      "steps": 5166,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-07-19",
+      "weightKg": 69.7,
+      "sbp": 128,
+      "dbp": 81,
+      "steps": 4967,
+      "exerciseMin": 22
+    },
+    {
+      "date": "2026-07-20",
+      "weightKg": 69.6,
+      "sbp": 127,
+      "dbp": 81,
+      "steps": 4990,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-07-21",
+      "weightKg": 69.6,
+      "sbp": 127,
+      "dbp": 81,
+      "steps": 5241,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-07-22",
+      "weightKg": 69.7,
+      "sbp": 127,
+      "dbp": 81,
+      "steps": 5446,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-07-23",
+      "weightKg": 69.6,
+      "sbp": 128,
+      "dbp": 80,
+      "steps": 4901,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-07-24",
+      "weightKg": 69.7,
+      "sbp": 127,
+      "dbp": 80,
+      "steps": 5239,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-07-25",
+      "weightKg": 69.4,
+      "sbp": 126,
+      "dbp": 81,
+      "steps": 5369,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-07-26",
+      "weightKg": 69.5,
+      "sbp": 127,
+      "dbp": 81,
+      "steps": 4965,
+      "exerciseMin": 26
+    },
+    {
+      "date": "2026-07-27",
+      "weightKg": 69.4,
+      "sbp": 126,
+      "dbp": 80,
+      "steps": 4961,
+      "exerciseMin": 22
+    },
+    {
+      "date": "2026-07-28",
+      "weightKg": 69.4,
+      "sbp": 127,
+      "dbp": 80,
+      "steps": 5553,
+      "exerciseMin": 27
+    },
+    {
+      "date": "2026-07-29",
+      "weightKg": 69.5,
+      "sbp": 127,
+      "dbp": 79,
+      "steps": 5325,
+      "exerciseMin": 27
+    },
+    {
+      "date": "2026-07-30",
+      "weightKg": 69.5,
+      "sbp": 126,
+      "dbp": 79,
+      "steps": 5409,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-07-31",
+      "weightKg": 69.3,
+      "sbp": 127,
+      "dbp": 79,
+      "steps": 5200,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-08-01",
+      "weightKg": 69.5,
+      "sbp": 128,
+      "dbp": 79,
+      "steps": 5599,
+      "exerciseMin": 27
+    },
+    {
+      "date": "2026-08-02",
+      "weightKg": 69.2,
+      "sbp": 127,
+      "dbp": 79,
+      "steps": 5493,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-08-03",
+      "weightKg": 69.6,
+      "sbp": 126,
+      "dbp": 80,
+      "steps": 5482,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-08-04",
+      "weightKg": 69.4,
+      "sbp": 127,
+      "dbp": 79,
+      "steps": 5294,
+      "exerciseMin": 28
+    },
+    {
+      "date": "2026-08-05",
+      "weightKg": 69.5,
+      "sbp": 128,
+      "dbp": 80,
+      "steps": 5349,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-08-06",
+      "weightKg": 69.5,
+      "sbp": 127,
+      "dbp": 78,
+      "steps": 5089,
+      "exerciseMin": 26
+    },
+    {
+      "date": "2026-08-07",
+      "weightKg": 69.3,
+      "sbp": 127,
+      "dbp": 78,
+      "steps": 5432,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-08-08",
+      "weightKg": 69.5,
+      "sbp": 128,
+      "dbp": 79,
+      "steps": 5512,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-08-09",
+      "weightKg": 69.3,
+      "sbp": 126,
+      "dbp": 78,
+      "steps": 5407,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-08-10",
+      "weightKg": 69.3,
+      "sbp": 129,
+      "dbp": 79,
+      "steps": 5531,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-08-11",
+      "weightKg": 69.3,
+      "sbp": 128,
+      "dbp": 78,
+      "steps": 5523,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-08-12",
+      "weightKg": 69.3,
+      "sbp": 128,
+      "dbp": 79,
+      "steps": 5278,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-08-13",
+      "weightKg": 69.4,
+      "sbp": 129,
+      "dbp": 78,
+      "steps": 5141,
+      "exerciseMin": 28
+    },
+    {
+      "date": "2026-08-14",
+      "weightKg": 69.2,
+      "sbp": 128,
+      "dbp": 78,
+      "steps": 5259,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-08-15",
+      "weightKg": 69.4,
+      "sbp": 129,
+      "dbp": 78,
+      "steps": 5477,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-08-16",
+      "weightKg": 69.3,
+      "sbp": 128,
+      "dbp": 78,
+      "steps": 5657,
+      "exerciseMin": 27
+    },
+    {
+      "date": "2026-08-17",
+      "weightKg": 69.1,
+      "sbp": 128,
+      "dbp": 79,
+      "steps": 5499,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-08-18",
+      "weightKg": 69.1,
+      "sbp": 129,
+      "dbp": 79,
+      "steps": 5532,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-08-19",
+      "weightKg": 69.2,
+      "sbp": 130,
+      "dbp": 78,
+      "steps": 5477,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-08-20",
+      "weightKg": 69.1,
+      "sbp": 128,
+      "dbp": 78,
+      "steps": 5658,
+      "exerciseMin": 26
+    },
+    {
+      "date": "2026-08-21",
+      "weightKg": 69.2,
+      "sbp": 130,
+      "dbp": 78,
+      "steps": 5683,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-08-22",
+      "weightKg": 69.1,
+      "sbp": 128,
+      "dbp": 78,
+      "steps": 5523,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-08-23",
+      "weightKg": 69.1,
+      "sbp": 129,
+      "dbp": 79,
+      "steps": 5687,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-08-24",
+      "weightKg": 69.3,
+      "sbp": 129,
+      "dbp": 79,
+      "steps": 5314,
+      "exerciseMin": 26
+    },
+    {
+      "date": "2026-08-25",
+      "weightKg": 69.2,
+      "sbp": 131,
+      "dbp": 79,
+      "steps": 5417,
+      "exerciseMin": 23
+    },
+    {
+      "date": "2026-08-26",
+      "weightKg": 69.3,
+      "sbp": 130,
+      "dbp": 78,
+      "steps": 5217,
+      "exerciseMin": 29
+    },
+    {
+      "date": "2026-08-27",
+      "weightKg": 69.1,
+      "sbp": 129,
+      "dbp": 78,
+      "steps": 5463,
+      "exerciseMin": 27
+    },
+    {
+      "date": "2026-08-28",
+      "weightKg": 69.1,
+      "sbp": 129,
+      "dbp": 78,
+      "steps": 5634,
+      "exerciseMin": 29
+    },
+    {
+      "date": "2026-08-29",
+      "weightKg": 68.9,
+      "sbp": 131,
+      "dbp": 79,
+      "steps": 5526,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-08-30",
+      "weightKg": 69.1,
+      "sbp": 130,
+      "dbp": 79,
+      "steps": 5661,
+      "exerciseMin": 27
+    },
+    {
+      "date": "2026-08-31",
+      "weightKg": 69.2,
+      "sbp": 130,
+      "dbp": 78,
+      "steps": 5567,
+      "exerciseMin": 26
+    },
+    {
+      "date": "2026-09-01",
+      "weightKg": 69.1,
+      "sbp": 130,
+      "dbp": 79,
+      "steps": 5222,
+      "exerciseMin": 24
+    },
+    {
+      "date": "2026-09-02",
+      "weightKg": 69.1,
+      "sbp": 132,
+      "dbp": 79,
+      "steps": 5576,
+      "exerciseMin": 25
+    },
+    {
+      "date": "2026-09-03",
+      "weightKg": 69.1,
+      "sbp": 131,
+      "dbp": 78,
+      "steps": 5441,
+      "exerciseMin": 27
+    },
+    {
+      "date": "2026-09-04",
+      "weightKg": 69,
+      "sbp": 132,
+      "dbp": 78,
+      "steps": 5413,
+      "exerciseMin": 27
+    },
+    {
+      "date": "2026-09-05",
+      "weightKg": 69.1,
+      "sbp": 130,
+      "dbp": 79,
+      "steps": 5375,
+      "exerciseMin": 28
+    }
+  ]
+}
