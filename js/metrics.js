@@ -137,6 +137,39 @@
     return /진단|치료|처방|약\s|약물|질병|건강이 좋아|건강이 나빠|위험|병원/.test(text);
   }
 
+  function formatYTick(value, digits, unit) {
+    if (digits === 1) return Number(value).toFixed(1);
+    const rounded = Math.round(value);
+    if (unit === "걸음") return rounded.toLocaleString("ko-KR");
+    return String(rounded);
+  }
+
+  function buildYAxis(values, digits, unit) {
+    if (!values.length) {
+      return { min: 0, max: 1, ticks: [] };
+    }
+    let min = Math.min.apply(null, values);
+    let max = Math.max.apply(null, values);
+    if (min === max) {
+      const pad = digits === 1 ? 0.4 : unit === "걸음" ? 200 : 4;
+      min -= pad;
+      max += pad;
+    } else if (digits === 1 && (max - min) / 4 < 0.1) {
+      const mid = (min + max) / 2;
+      min = mid - 0.2;
+      max = mid + 0.2;
+    }
+    const ticks = [];
+    for (let i = 0; i < 5; i += 1) {
+      const value = min + ((max - min) * i) / 4;
+      ticks.push({
+        value: value,
+        label: formatYTick(value, digits, unit),
+      });
+    }
+    return { min: min, max: max, ticks: ticks };
+  }
+
   function buildChart(rows, chartMetricId) {
     const spec = CHART_METRICS[chartMetricId] || CHART_METRICS[DEFAULT_CHART_METRIC];
     const series = spec.series.map(function (item) {
@@ -152,6 +185,11 @@
     const lineNames = series.map(function (item) {
       return item.label;
     }).join(", ");
+    const allValues = series.reduce(function (list, item) {
+      return list.concat(item.points.map(function (point) {
+        return point.value;
+      }));
+    }, []);
     return {
       metricId: spec.id,
       title: spec.title,
@@ -160,6 +198,7 @@
       description: "선택한 기간의 " + spec.title + ". 단위 " + spec.unit + ". 선: " + lineNames + ". 점 " + (series[0] ? series[0].points.length : 0) + "개",
       series: series,
       points: series[0] ? series[0].points : [],
+      yAxis: buildYAxis(allValues, spec.digits, spec.unit),
     };
   }
 
@@ -289,6 +328,8 @@
     latestDate: latestDate,
     mean: mean,
     direction: direction,
+    buildYAxis: buildYAxis,
+    formatYTick: formatYTick,
     buildChart: buildChart,
     buildDashboard: buildDashboard,
     forbiddenPhrase: forbiddenPhrase,

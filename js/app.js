@@ -55,12 +55,13 @@
   }
 
   function drawChart(chartView) {
-    const width = 360;
-    const height = 220;
-    const pad = { top: 28, right: 12, bottom: 36, left: 48 };
+    const width = 384;
+    const height = 228;
+    const pad = { top: 22, right: 12, bottom: 36, left: 64 };
     const innerW = width - pad.left - pad.right;
     const innerH = height - pad.top - pad.bottom;
     const series = chartView.series || [];
+    const yAxis = chartView.yAxis || { min: 0, max: 1, ticks: [] };
     while (chart.firstChild) chart.removeChild(chart.firstChild);
 
     const allPoints = series.reduce(function (list, item) {
@@ -75,25 +76,37 @@
       return;
     }
 
-    const values = allPoints.map(function (point) { return point.value; });
-    const min = Math.min.apply(null, values);
-    const max = Math.max.apply(null, values);
-    const span = Math.max(chartView.digits === 1 ? 0.1 : 1, max - min);
+    const axisMin = yAxis.min;
+    const axisMax = yAxis.max;
+    const span = Math.max(chartView.digits === 1 ? 0.1 : 1, axisMax - axisMin);
     const xCount = series[0].points.length;
     const xAt = function (index) {
       if (xCount === 1) return pad.left + innerW / 2;
       return pad.left + (index / (xCount - 1)) * innerW;
     };
     const yAt = function (value) {
-      return pad.top + innerH - ((value - min) / span) * innerH;
+      return pad.top + innerH - ((value - axisMin) / span) * innerH;
     };
 
-    chart.appendChild(svgEl("polyline", {
-      fill: "none",
-      stroke: "#d7cfc2",
-      "stroke-width": "1",
-      points: pad.left + "," + (pad.top + innerH) + " " + (pad.left + innerW) + "," + (pad.top + innerH),
-    }));
+    (yAxis.ticks || []).forEach(function (tick) {
+      const y = yAt(tick.value);
+      chart.appendChild(svgEl("line", {
+        class: "chart-grid",
+        x1: String(pad.left),
+        y1: String(y),
+        x2: String(pad.left + innerW),
+        y2: String(y),
+      }));
+      const label = svgEl("text", {
+        class: "chart-ytick",
+        x: String(pad.left - 8),
+        y: String(y),
+        "text-anchor": "end",
+        "dominant-baseline": "middle",
+      });
+      label.textContent = tick.label;
+      chart.appendChild(label);
+    });
 
     series.forEach(function (item) {
       const d = item.points.map(function (point, index) {
@@ -123,12 +136,9 @@
     last.textContent = lastPoint.date.slice(5);
     chart.appendChild(last);
 
-    const unitLabel = svgEl("text", { class: "chart-label", x: "8", y: "16" });
+    const unitLabel = svgEl("text", { class: "chart-label", x: "8", y: "14" });
     unitLabel.textContent = chartView.unit;
     chart.appendChild(unitLabel);
-    const maxLabel = svgEl("text", { class: "chart-label", x: "8", y: String(pad.top + 6) });
-    maxLabel.textContent = formatTick(max, chartView.digits);
-    chart.appendChild(maxLabel);
 
     if (series.length > 1) {
       chartLegend.hidden = false;
